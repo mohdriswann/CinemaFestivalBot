@@ -141,7 +141,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="Owner", url="https://t.me/youcan_callme_leo"), InlineKeyboardButton(text="Creator", url="https://t.me/Youcan_callme_leo")],
                      [InlineKeyboardButton(text="GROUP", url="https://t.me/Moviesfactory_chat"), InlineKeyboardButton(text="CHANNEL", url="https://t.me/movieesfactory")],
-                     [InlineKeyboardButton(text="Source", url="https://www.youtube.com/channel/UCoWo4AIhxjEX-xCk0LwAtDA"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                     [InlineKeyboardButton(text="Source", url="https://t.me/joinchat/UvE4BljRtaXmp1TM"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
