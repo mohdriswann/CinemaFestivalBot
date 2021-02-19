@@ -139,8 +139,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Owner", url="https://t.me/youcan_callme_leo"), InlineKeyboardButton(text="Creator", url="https://t.me/Youcan_callme_leo")],
-                     [InlineKeyboardButton(text="GROUP", url="https://t.me/joinchat/V8gzr7ZHhiNZ_DTN"), InlineKeyboardButton(text="CHANNEL", url="https://t.me/joinchat/Rh44PcxBE6HYusJ1")],
+                    [[InlineKeyboardButton(text="GROUP", url="https://t.me/joinchat/V8gzr7ZHhiNZ_DTN"), InlineKeyboardButton(text="CHANNEL", url="https://t.me/joinchat/Rh44PcxBE6HYusJ1")],
+
                      [InlineKeyboardButton(text="Source", url="https://t.me/joinchat/UvE4BljRtaXmp1TM"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
