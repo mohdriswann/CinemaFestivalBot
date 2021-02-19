@@ -19,7 +19,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-Hai... This is a Unlimited Filter Bot, Exclusively Maded For MOVIES FACTORY Group..
+sᴏʀʀʏ .. 😔 ᴛʜɪs ʙᴏᴛ ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜsᴇᴅ ɪɴ Cinema Festival ɢʀᴏᴜᴘ!​ ❤️
 
 """
 
@@ -140,7 +140,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="Owner", url="https://t.me/youcan_callme_leo"), InlineKeyboardButton(text="Creator", url="https://t.me/Youcan_callme_leo")],
-                     [InlineKeyboardButton(text="GROUP", url="https://t.me/Moviesfactory_chat"), InlineKeyboardButton(text="CHANNEL", url="https://t.me/movieesfactory")],
+                     [InlineKeyboardButton(text="GROUP", url="https://t.me/joinchat/V8gzr7ZHhiNZ_DTN"), InlineKeyboardButton(text="CHANNEL", url="https://t.me/joinchat/Rh44PcxBE6HYusJ1")],
                      [InlineKeyboardButton(text="Source", url="https://t.me/joinchat/UvE4BljRtaXmp1TM"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
